@@ -52,3 +52,10 @@ create table emplo(emplo_id int primary key,emplo_name varchar(50),emplo_role va
 
 create table sales(sales_is int primary key,sales_date datetime, sales_amount decimal(10,2), car_id int,customer_id int,emplo_id int,foreign key(car_id) references cars(car_id),
  foreign key (customer_id) references customers(customer_id), foreign key (emplo_id) references emplo(emplo_id));
+
+
+ ## ER Diagram
+ <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/1d20c0e5-9380-4af8-bad2-d0c7e585b6fd" />
+
+
+ 
